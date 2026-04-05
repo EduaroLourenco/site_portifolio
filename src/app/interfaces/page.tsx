@@ -11,6 +11,7 @@ import {
 import { SpotlightCard } from '@/components/ui/SpotlightCard'
 import { KanbanSimulator } from '@/components/interactive/KanbanSimulator'
 import { MarketplaceDataGrid } from '@/components/interactive/MarketplaceDataGrid'
+import { SaaSFlowSimulator } from '@/components/interactive/SaaSFlowSimulator'
 import { Accordion } from '@/components/ui/Accordion'
 
 export default function InterfacesPage() {
@@ -113,6 +114,16 @@ export default function InterfacesPage() {
               </p>
               <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
                  <MarketplaceDataGrid />
+              </div>
+           </div>
+
+           <div className="space-y-6">
+              <h3 className="text-white font-bold text-xl italic tracking-tight">Experiência Mobile: SaaS de Agendamento</h3>
+              <p className="text-white/40 text-base leading-relaxed mb-8 font-light max-w-2xl">
+                 Simulador de interface mobile (iPhone 15 Pro) para serviços de alto ticket. Foco em UX fluida, conversão direta e integração com Webhooks.
+              </p>
+              <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
+                 <SaaSFlowSimulator />
               </div>
            </div>
         </div>
