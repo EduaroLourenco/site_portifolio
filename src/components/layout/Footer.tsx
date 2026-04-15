@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { Mail, ExternalLink, ArrowUp, Linkedin } from 'lucide-react'
+import { Mail, ExternalLink, ArrowUp } from 'lucide-react'
 
 function scrollToTop() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
