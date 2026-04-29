@@ -12,6 +12,9 @@ import { SpotlightCard } from '@/components/ui/SpotlightCard'
 import { KanbanSimulator } from '@/components/interactive/KanbanSimulator'
 import { MarketplaceDataGrid } from '@/components/interactive/MarketplaceDataGrid'
 import { SaaSFlowSimulator } from '@/components/interactive/SaaSFlowSimulator'
+import { InstitutionalMiniApp } from '@/components/interactive/InstitutionalMiniApp'
+import { EcommerceMiniApp } from '@/components/interactive/EcommerceMiniApp'
+import { BookingMiniApp } from '@/components/interactive/BookingMiniApp'
 import { Accordion } from '@/components/ui/Accordion'
 import { SidebarNav } from '@/components/layout/SidebarNav'
 
@@ -138,6 +141,36 @@ export default function InterfacesPage() {
               </p>
               <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
                  <SaaSFlowSimulator />
+              </div>
+           </div>
+
+           <div className="space-y-6">
+              <h3 className="text-white font-bold text-xl italic tracking-tight">Arquitetura de Landing Page Corporativa</h3>
+              <p className="text-white/40 text-base leading-relaxed mb-8 font-light max-w-2xl">
+                 Estrutura otimizada para conversão B2B, com hierarquia visual clara, copy escaneável e micro-interações que retêm a atenção.
+              </p>
+              <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
+                 <InstitutionalMiniApp />
+              </div>
+           </div>
+
+           <div className="space-y-6">
+              <h3 className="text-white font-bold text-xl italic tracking-tight">Interface E-commerce de Alta Performance</h3>
+              <p className="text-white/40 text-base leading-relaxed mb-8 font-light max-w-2xl">
+                 Layout orientado para conversão com foco na jornada do produto. Carrinho lateral dinâmico (sidecart) e destaque para urgência/provas sociais.
+              </p>
+              <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
+                 <EcommerceMiniApp />
+              </div>
+           </div>
+
+           <div className="space-y-6">
+              <h3 className="text-white font-bold text-xl italic tracking-tight">Fluxo de Agendamento Inteligente (Booking)</h3>
+              <p className="text-white/40 text-base leading-relaxed mb-8 font-light max-w-2xl">
+                 Step-by-step sem atrito para captura de leads e agendamentos. Redução do abandono de formulários com design responsivo.
+              </p>
+              <div className="bg-white/[0.01] border border-white/5 rounded-[2rem] p-4 md:p-8">
+                 <BookingMiniApp />
               </div>
            </div>
         </div>
